@@ -11,6 +11,7 @@ build-mode = "both"
 version = "auto"
 included-patches = "client-spoof disable-shorts-on-startup disable-fullscreen-panels disable-player-popup-panels hdr-auto-brightness hide-ads hide-breaking-news-shelf hide-cast-button hide-email-address hide-endscreen-cards hide-info-cards hide-watermark minimized-playback open-links-externally premium-heading return-youtube-dislike sponsorblock video-ads"
 exclusive-patches = true
+module-prop-name = "youtube-revanced-iiovo"
 
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
