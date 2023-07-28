@@ -14,7 +14,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 exclusive-patches = true
 module-prop-name = "youtube-revanced-iiovo"
 
-
 [YouTube-Extended]
 enabled = false
 app-name = "YouTube"
@@ -46,8 +45,6 @@ apkmirror-arch = "both"
 [Twitter]
 enabled = false
 build-mode = "apk"
-excluded-patches = "hide-views-stats"
-version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
