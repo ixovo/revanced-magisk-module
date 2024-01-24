@@ -11,6 +11,7 @@ included-patches = "'Theme' 'Disable player popup panels' 'Disable resuming Shor
 exclusive-patches = true
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+module-prop-name = "youtube-revanced-iiovo"
 
 [Music]
 build-mode = "both"
