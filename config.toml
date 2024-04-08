@@ -1,8 +1,9 @@
-logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
 
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
@@ -13,32 +14,11 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 exclusive-patches = true
 module-prop-name = "youtube-revanced-iiovo"
 
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-arch = "both"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
 [Music]
 enabled = false
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-arch = "both"
+arch = "both"
 
 [Twitter]
 enabled = false
@@ -51,56 +31,43 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.ap
 
 [TikTok]
 enabled = false
-uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+included-patches = "'SIM spoof'"
 
 [Reddit]
 enabled = false
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 
-[Lightroom]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
-apkmirror-arch = "arm64-v8a + x86_64"
-
 [Messenger]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-apkmirror-arch = "arm64-v8a"
+arch = "arm64-v8a"
 
 [Spotify]
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
-[Citra]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
-apkmirror-arch = "arm64-v8a"
-
-[Backdrops]
-enabled = false
-uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-
-[WarnWetter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/"
-
-[Windyapp]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
-
 [IconPackStudio]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
-[TickTick]
+[Music-Extended]
 enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
-apkmirror-arch = "arm64-v8a"
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+arch = "both"
 
-[Tasker]
-enabled = true
-apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
-
-[Photomath]
+[YouTube-Extended]
 enabled = false
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
