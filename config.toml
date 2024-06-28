@@ -7,13 +7,13 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
 #included-patches = "'External downloads' 'Hide ads' 'Video ads' 'HDR auto brightness' 'Minimized playback' 'Bypass URL redirects' 'Open links externally' 'Client spoof' 'Hide breaking news shelf' 'Hide endscreen cards' 'Hide watermark' 'Hide email address' 'Hide Shorts components' 'Hide info cards' 'Navigation buttons' 'Disable Shorts on startup' 'Disable player popup panels' 'SponsorBlock' 'Premium heading' 'Return YouTube Dislike'"
-included-patches = "'Video ads' 'Hide ads' 'Disable resuming Shorts on startup' 'Disable auto captions' 'SponsorBlock' 'Hide Shorts components' 'Hide breaking news shelf' 'Disable suggested video end screen' 'Hide endscreen cards' 'Hide info cards' 'Return YouTube Dislike' 'Disable player popup panels' 'Hide player buttons' 'Hide cast button' 'Bypass URL redirects' 'Open links externally' 'Client spoof' 'Spoof device dimensions' 'Minimized playback' 'Remove tracking query parameter' 'Downloads'"
+#included-patches = "'Video ads' 'Hide ads' 'Disable resuming Shorts on startup' 'Disable auto captions' 'SponsorBlock' 'Hide Shorts components' 'Hide breaking news shelf' 'Disable suggested video end screen' 'Hide endscreen cards' 'Hide info cards' 'Return YouTube Dislike' 'Disable player popup panels' 'Hide player buttons' 'Hide cast button' 'Bypass URL redirects' 'Open links externally' 'Client spoof' 'Spoof device dimensions' 'Minimized playback' 'Remove tracking query parameter' 'Downloads'"
+excluded-patches = "'Disable zoom haptics' 'GmsCore support' 'Enable debugging' 'Announcements' 'Custom player overlay opacity' 'Theme' 'Hide player buttons' 'Enable tablet layout' 'Spoof app version' 'Wide searchbar' 'Hide filter bar' 'Hide seekbar' 'Hide crowdfunding box' 'Hide timestamp' 'Disable fullscreen ambient mode' 'Hide album cards' 'Comments' 'Hide floating microphone button' 'Alternative thumbnails' 'Restore old video quality menu' 'Playback speed' 'Disable precise seeking gesture' 'Seekbar tapping' 'Swipe controls'"
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
-exclusive-patches = true
+#exclusive-patches = true
 module-prop-name = "youtube-revanced-iiovo"
 
 [Music]
