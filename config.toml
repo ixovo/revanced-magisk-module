@@ -13,40 +13,14 @@ excluded-patches = "'Swipe controls' 'Hide floating microphone button' 'Disable 
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "youtube-revanced-ixovo"
 
 [Music]
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 included-patches = "'Permanent shuffle' 'Permanent repeat'"
 excluded-patches = "'GmsCore support'"
 module-prop-name = "youtubemusic-revanced-ixovo"
-
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Enable landscape mode' 'GmsCore support' 'Restore old style library shelf'"
-module-prop-name = "youtubemusic-extended-ixovo"
-
-
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
-module-prop-name = "youtube-extended-ixovo"
