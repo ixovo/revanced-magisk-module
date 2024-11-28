@@ -8,72 +8,45 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
+#excluded-patches = "'Disable zoom haptics' 'GmsCore support' 'Enable debugging' 'Announcements' 'Custom player overlay opacity' 'Theme' 'Hide player buttons' 'Enable tablet layout' 'Spoof app version' 'Wide searchbar' 'Hide filter bar' 'Hide seekbar' 'Hide crowdfunding box' 'Hide timestamp' 'Disable fullscreen ambient mode' 'Hide album cards' 'Comments' 'Hide floating microphone button' 'Alternative thumbnails' 'Restore old video quality menu' 'Playback speed' 'Disable precise seeking gesture' 'Seekbar tapping' 'Swipe controls'"
+excluded-patches = "'Swipe controls' 'Hide floating microphone button' 'Disable rolling number animations' 'Hide crowdfunding box' 'Custom player overlay opacity' 'Theme' 'Enable tablet layout' 'Restore old seekbar thumbnails' 'Wide searchbar' 'Enable debugging' 'GmsCore support' 'Disable zoom haptics' 'Announcements'"
 included-patches = ""
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+module-prop-name = "youtube-revanced-ixovo"
 
 [Music]
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+included-patches = "'Permanent shuffle' 'Permanent repeat'"
+excluded-patches = "'GmsCore support'"
+module-prop-name = "youtubemusic-revanced-ixovo"
 
-[Twitch]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+[Music-Extended]
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Enable landscape mode' 'GmsCore support' 'Restore old style library shelf'"
+module-prop-name = "youtubemusic-extended-ixovo"
 
-# [Music-Extended]
-# app-name = "Music"
-# patches-source = "inotia00/revanced-patches"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# build-mode = "both"
-# arch = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-# [YouTube-Extended]
-# app-name = "YouTube"
-# patches-source = "inotia00/revanced-patches"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# build-mode = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-# [Reddit-Extended]
-# patches-source = "inotia00/revanced-patches"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-
-[Twitter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
-dpi = "120-640dpi"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-
-[TikTok]
-enabled = false
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm64-v8a"
-
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+[YouTube-Extended]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+module-prop-name = "youtube-extended-ixovo"
