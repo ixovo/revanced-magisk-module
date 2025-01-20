@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (70)",
-  "versionCode": 70,
-  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/70/youtube-revanced-magisk-v19.47.53-all.zip",
+  "version": "v19.47.53 (patches: 5.9.0)",
+  "versionCode": 71,
+  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/71/youtube-revanced-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/ixovo/revanced-magisk-module/update/build.md"
 }
