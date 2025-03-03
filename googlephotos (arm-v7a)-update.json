@@ -1,6 +1,6 @@
 {
-  "version": "v7.13.0.716414472 (patches: 5.9.0)",
-  "versionCode": 71,
-  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/71/googlephotos-revanced-magisk-v7.13.0.716414472-arm-v7a.zip",
+  "version": "v7.18.0.729565054 (patches: 5.13.0)",
+  "versionCode": 75,
+  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/75/googlephotos-revanced-magisk-v7.18.0.729565054-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/ixovo/revanced-magisk-module/update/build.md"
 }
