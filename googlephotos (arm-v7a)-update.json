@@ -1,6 +1,6 @@
 {
-  "version": "v7.24.0.746524260 (patches: 5.19.0)",
-  "versionCode": 80,
-  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/80/googlephotos-revanced-magisk-v7.24.0.746524260-arm-v7a.zip",
+  "version": "v7.24.0.746524260 (patches: 5.19.1)",
+  "versionCode": 81,
+  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/81/googlephotos-revanced-magisk-v7.24.0.746524260-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/ixovo/revanced-magisk-module/update/build.md"
 }
