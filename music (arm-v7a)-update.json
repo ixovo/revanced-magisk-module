@@ -1,6 +1,6 @@
 {
-  "version": "v8.05.51 (patches: 5.25.0)",
-  "versionCode": 88,
-  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/88/music-revanced-magisk-v8.05.51-arm-v7a.zip",
+  "version": "v8.05.51 (patches: 5.26.0)",
+  "versionCode": 89,
+  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/89/music-revanced-magisk-v8.05.51-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/ixovo/revanced-magisk-module/update/build.md"
 }
