@@ -1,6 +1,6 @@
 {
-  "version": "v20.12.46 (patches: 5.28.0)",
-  "versionCode": 91,
-  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/91/youtube-revanced-magisk-v20.12.46-all.zip",
+  "version": "v20.13.41 (patches: 5.29.0)",
+  "versionCode": 92,
+  "zipUrl": "https://github.com/ixovo/revanced-magisk-module/releases/download/92/youtube-revanced-magisk-v20.13.41-all.zip",
   "changelog": "https://raw.githubusercontent.com/ixovo/revanced-magisk-module/update/build.md"
 }
