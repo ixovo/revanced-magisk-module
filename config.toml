@@ -8,8 +8,9 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
-#excluded-patches = "'Disable zoom haptics' 'GmsCore support' 'Enable debugging' 'Announcements' 'Custom player overlay opacity' 'Theme' 'Hide player buttons' 'Enable tablet layout' 'Spoof app version' 'Wide searchbar' 'Hide filter bar' 'Hide seekbar' 'Hide crowdfunding box' 'Hide timestamp' 'Disable fullscreen ambient mode' 'Hide album cards' 'Comments' 'Hide floating microphone button' 'Alternative thumbnails' 'Restore old video quality menu' 'Playback speed' 'Disable precise seeking gesture' 'Seekbar tapping' 'Swipe controls'"
-excluded-patches = "'Swipe controls' 'Hide floating microphone button' 'Disable rolling number animations' 'Hide crowdfunding box' 'Custom player overlay opacity' 'Theme' 'Enable tablet layout' 'Restore old seekbar thumbnails' 'Wide searchbar' 'Enable debugging' 'GmsCore support' 'Disable zoom haptics' 'Announcements'"
+# excluded-patches = "'Disable zoom haptics' 'GmsCore support' 'Enable debugging' 'Announcements' 'Custom player overlay opacity' 'Theme' 'Hide player buttons' 'Enable tablet layout' 'Spoof app version' 'Wide searchbar' 'Hide filter bar' 'Hide seekbar' 'Hide crowdfunding box' 'Hide timestamp' 'Disable fullscreen ambient mode' 'Hide album cards' 'Comments' 'Hide floating microphone button' 'Alternative thumbnails' 'Restore old video quality menu' 'Playback speed' 'Disable precise seeking gesture' 'Seekbar tapping' 'Swipe controls'"
+# excluded-patches = "'Swipe controls' 'Hide floating microphone button' 'Disable rolling number animations' 'Hide crowdfunding box' 'Custom player overlay opacity' 'Theme' 'Enable tablet layout' 'Restore old seekbar thumbnails' 'Wide searchbar' 'Enable debugging' 'GmsCore support' 'Disable zoom haptics' 'Announcements'"
+excluded-patches = "'Remove viewer discretion dialog' 'Swipe controls' 'Spoof app version' 'Theme' 'Alternative thumbnails' 'Bypass image region restrictions' 'Announcements' 'Always repeat' 'GmsCore support'"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
